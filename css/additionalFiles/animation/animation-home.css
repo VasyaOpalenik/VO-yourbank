@@ -1,0 +1,124 @@
+/* home-page */
+/* home-page before class anim */
+/* home-page__content */
+.home-page__check-mark,
+.home-page__title,
+.home-page__text,
+.home-page__button {
+    transition: all 0.8s ease;
+    transform: translate(-2000%, 0);
+}
+
+.home-page__check-mark {
+    transition-delay: 0.4s;
+}
+
+.home-page__title {
+    transition-delay: 0.6s;
+}
+
+.home-page__text {
+    transition-delay: 0.8s;
+}
+
+.home-page__button {
+    transition-delay: 1s;
+}
+
+/* home-page__transaction */
+.home-page__transaction {
+    transition: all 0.8s ease 1.4s;
+    transform: translate(2000%, 0);
+}
+
+/* home-page after class anim */
+.home-page__conteiner.anim .home-page__check-mark,
+.home-page__conteiner.anim .home-page__title,
+.home-page__conteiner.anim .home-page__text,
+.home-page__conteiner.anim .home-page__button {
+    transform: translate(0);
+}
+
+.home-page__conteiner.anim .home-page__transaction {
+    transform: translate(0);
+}
+
+/* our-products */
+/* our-products before class anim */
+/* our-products__selects */
+.item-select-our-products {
+    transition: all 0.8s ease;
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* our-products after class anim */
+.our-products__selects.anim .item-select-our-products {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* use-cases */
+/* use-cases before class anim */
+.percentage-info-use-cases,
+.card-use-cases {
+    transition: all 0.8s ease;
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* info-use-cases */
+.info-use-cases {
+    overflow: hidden;
+}
+
+.info-use-cases__title,
+.info-use-cases__paragraph,
+.info-use-cases__button {
+    transition: all 0.8s ease 0.2s;
+    transform: translateY(200%);
+    opacity: 0;
+}
+
+/* use-cases after class anim */
+.use-cases__content.anim .percentage-info-use-cases,
+.use-cases__content.anim .card-use-cases {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.use-cases__content.anim .info-use-cases__title,
+.use-cases__content.anim .info-use-cases__paragraph,
+.use-cases__content.anim .info-use-cases__button {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* our-features */
+/* our-features  before class anim */
+/* tab-our-features */
+.tab-our-features__item {
+    transition: all 0.8s ease;
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* our-features after class anim */
+.our-features__tabs-content.anim .tab-our-features__item {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* frequently-questions */
+/* frequently-questions before class anim */
+.asked-frequently-questions {
+    transition: all 0.8s ease;
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* frequently-questions after class anim */
+.frequently-questions__askeds.anim .asked-frequently-questions {
+    transform: scale(1);
+    opacity: 1;
+}

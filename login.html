@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="wraper">
+        <header class="header" data-anim="true">
+            <div class="header__conteiner conteiner">
+                <div class="header__menu">
+                    <a href="index.html"><img src="img/header/Logo.svg" alt="logo" class="header__logo"></img></a>
+                    <nav class="header__nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="security.html">Security</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__buttons buttons" data-move-item="header__nav ul" data-move-width="992">
+                        <a href="sign-up.html" class="buttons__button">Sign Up</a>
+                        <a href="login.html" class="buttons__button">Login</a>
+                    </div>
+                    <div class="header__burger burger">
+                        <div class="burger__conteiner">
+                            <span class="burger-conteiner__span"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="login">
+                <div class="login__conteiner conteiner">
+                    <div class="login__block-conteiner">
+                        <h2 class="login__title title-page"><span>Login</span></h2>
+                        <p class="login__sub-title text">
+                            Welcome back! Please log in to access your account.
+                        </p>
+                        <form action="#" id="loginForm" class="login__form form-login">
+                            <div class="form-login__inputs">
+                                <div class="form-login__input">
+                                    <input type="email" placeholder="Enter your Email" class="form-login__email">
+                                </div>
+                                <div class="form-login__input form-login__password-conteiner">
+                                    <input type="password" placeholder="Enter your Password"
+                                        class="form-login__password">
+                                    <img src="img/login/icons/eye.svg" class="form-login__password-eye" alt="icon-eye">
+                                </div>
+                            </div>
+                            <a href="#" class="form-login__forgot-password text">Forgot Password?</a>
+                            <div class="form-login__buttons">
+                                <button class="form-login__button form-login__button-submit button">Login</button>
+                                <a href="sign-up.html"
+                                    class="form-login__button form-login__button-link button-two">Sign Up</a>
+                            </div>
+                            <div class="form-login__continue-with text">
+                                <span>Or Continue with</span>
+                            </div>
+                            <div class="form-login__social-networks social-networks-form-login">
+                                <a href="#" class="social-networks-form-login__item">
+                                    <img src="img/login/icons/social networks/01.svg" alt="icon">
+                                </a>
+                                <a href="#" class="social-networks-form-login__item">
+                                    <img src="img/login/icons/social networks/02.svg" alt="icon">
+                                </a>
+                                <a href="#" class="social-networks-form-login__item">
+                                    <img src="img/login/icons/social networks/03.svg" alt="icon">
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="our-testimonials our-testimonials-login-register">
+                <div class="our-testimonials__conteiner conteiner" data-tab-conteiner="slider-tab">
+                    <div class="our-testimonials__content">
+                        <div class="our-testimonials__info">
+                            <h2 class="our-testimonials__title title-page">Our <span>Testimonials</span></h2>
+                            <p class="our-testimonials__paragraph text">
+                                Discover how YourBank has transformed lives with innovative digital solutions and
+                                personalized customer service. See why our clients trust us for a secure and prosperous
+                                financial journey
+                            </p>
+                        </div>
+                        <div class="our-testimonials__tabs-controllers buttons">
+                            <a href="#" class="buttons__button button-active" data-tab-button="1">For Individuals</a>
+                            <a href="#" class="buttons__button" data-tab-button="2">For Businesses</a>
+                        </div>
+                    </div>
+                    <div class="our-testimonials__tabs tabs-our-testimonials">
+                        <div class="tabs-our-testimonials__slider swiper tab-open" data-tab-id="1">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Sara T</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Emily G</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                            </div>
+                            <div class="tab-slider-buttons">
+                                <div class="tab-slider-button-prev">
+                                    <img src="img/main/our-testimonials/slider/arrow-left.svg" alt="arrow">
+                                </div>
+                                <div class="tab-slider-button-next">
+                                    <img src="img/main/our-testimonials/slider/arrow-rigth.svg" alt="arrow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-our-testimonials__slider swiper" data-tab-id="2">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Sara T</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Emily G</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Sara T</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Sara T</span>
+                                </div>
+                            </div>
+                            <div class="tab-slider-buttons">
+                                <div class="tab-slider-button-prev">
+                                    <img src="img/main/our-testimonials/slider/arrow-left.svg" alt="arrow">
+                                </div>
+                                <div class="tab-slider-button-next">
+                                    <img src="img/main/our-testimonials/slider/arrow-rigth.svg" alt="arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer" data-anim="true">
+            <div class="footer__conteiner conteiner">
+                <div class="footer__menu header__menu">
+                    <a href="#"><img src="img/header/Logo.svg" alt="logo" class="footer__logo header__logo"></img></a>
+                    <nav class="footer__nav footer__item">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="security.html">Security</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer__communication footer__item communication-footer">
+                        <li class="communication-footer__item">
+                            <img src="img/footer/icon-item/gmail.svg" alt="gmail" class="communication-footer__icon">
+                            <a href="#">hello@skillbirdge.com</a>
+                        </li>
+                        <li class="communication-footer__item">
+                            <img src="img/footer/icon-item/phone.svg" alt="tel" class="communication-footer__icon">
+                            <a href="tel:+91 91813 23 2309">+91 91813 23 2309</a>
+                        </li>
+                        <li class="communication-footer__item">
+                            <img src="img/footer/icon-item/location.svg" alt="location"
+                                class="communication-footer__icon">
+                            <a href="#">Somewhere in the World</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__social-networks social-networks-footer">
+                    <ul class="social-networks-footer__list">
+                        <li>
+                            <a href="#">
+                                <img src="img/footer/social-networks/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/footer/social-networks/twiter.svg" alt="twiter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/footer/social-networks/instagram.svg" alt="instagram">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="social-networks-footer__text text">YourBank All Rights Reserved</p>
+                    <p class="social-networks-footer__text text"><span>Privacy Policy</span> Terms of Service</p>
+                </div>
+            </div>
+        </footer>
+        <div class="popup">
+            <div class="popup__conteiner">
+                <p class="popup__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quam quidem magni,
+                    odit fugiat cumque nihil temporibus quos omnis odio laboriosam nobis laudantium reiciendis ipsam
+                    voluptate blanditiis corrupti? Aliquid, harum.</p>
+                <a href="#" class="popup__close-button button">
+                    Close the pop-up window
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/movingElements.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/scroll-anim.js"></script>
+    <script>
+        // eye for input password
+        const passwordList = document.querySelectorAll(".form-login__password-conteiner");
+        if (passwordList.length > 0) {
+            Array.from(passwordList).forEach(passwordInputConteiner => {
+                const passwordInput = passwordInputConteiner.querySelector("input");
+                const passwordEye = passwordInputConteiner.querySelector(".form-login__password-eye");
+                if (passwordEye) {
+                    passwordEye.onclick = () => {
+                        if (passwordInput.type === "password") {
+                            passwordInput.type = "text";
+                        } else {
+                            passwordInput.type = "password";
+                        }
+                    };
+                }
+            });
+        }
+    </script>
+    <script src="js/popup.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

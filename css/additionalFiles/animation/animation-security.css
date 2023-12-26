@@ -1,0 +1,22 @@
+/* protect */
+/* protect before class anim */
+/* protect__list */
+.protect__list {
+    overflow: hidden;
+}
+
+.item-protect {
+    transition: all 0.8s ease;
+    opacity: 0;
+    transform: translateX(-200%);
+}
+
+.item-protect:nth-child(even) {
+    transform: translateX(200%);
+}
+
+/* protect after class anim */
+.protect__list.anim .item-protect {
+    transform: translate(0);
+    opacity: 1;
+}

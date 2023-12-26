@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div class="wreper">
+        <header class="header" data-anim="true">
+            <div class="header__conteiner conteiner">
+                <div class="header__menu">
+                    <a href="index.html"><img src="img/header/Logo.svg" alt="logo" class="header__logo"></img></a>
+                    <nav class="header__nav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="security.html">Security</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__buttons buttons" data-move-item="header__nav ul" data-move-width="992">
+                        <a href="sign-up.html" class="buttons__button">Sign Up</a>
+                        <a href="login.html" class="buttons__button">Login</a>
+                    </div>
+                    <div class="header__burger burger">
+                        <div class="burger__conteiner">
+                            <span class="burger-conteiner__span"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="home-page">
+                <div class="home-page__conteiner conteiner" data-anim="false">
+                    <div class="home-page__content">
+                        <div class="home-page__check-mark">
+                            <img src="img/main/home-page/mark.svg" alt="check Mark">
+                            <span>No LLC Required, No Credit Check.</span>
+                        </div>
+                        <h2 class="home-page__title title-page">
+                            Welcome to YourBank
+                            Empowering Your <span class="title-page__span">Financial Journey</span>
+                        </h2>
+                        <p class="home-page__text text">
+                            At YourBank, our mission is to provide comprehensive banking solutions that empower
+                            individuals and businesses to achieve their financial goals. We are committed to delivering
+                            personalized and innovative services that prioritize our customers' needs.
+                        </p>
+                        <a href="sign-up.html" class="home-page__button button">Open Account</a>
+                    </div>
+                    <div class="home-page__transaction transaction">
+                        <div class="transaction__notification notification">
+                            <img src="img/main/home-page/notification-iron.svg" class="notification__icon"></img>
+                            <div class="notification__content">
+                                <h4 class="notification__title">+ $5000,00</h4>
+                                <p class="notification__text">Monthly Income</p>
+                            </div>
+                        </div>
+                        <ul class="transaction__list">
+                            <h4 class="transaction__title transaction-text">Your Transactions</h4>
+                            <li class="transaction__item transaction-item">
+                                <img src="img/main/home-page/transaction-icon.svg" alt="icon transaction"
+                                    class="transaction-item__icon">
+                                <div class="transaction-item__text">
+                                    <a class="transaction-item__operation" href="#">Transaction</a>
+                                    <h5 class="transaction-item__name">Joel Kenley</h5>
+                                </div>
+                                <p class="transaction-item__amount transaction-text">-$68.00</p>
+                            </li>
+                            <li class="transaction__item transaction-item">
+                                <img src="img/main/home-page/transaction-icon.svg" alt="icon transaction"
+                                    class="transaction-item__icon">
+                                <div class="transaction-item__text">
+                                    <a class="transaction-item__operation" href="#">Transaction</a>
+                                    <h5 class="transaction-item__name">Joel Kenley</h5>
+                                </div>
+                                <p class="transaction-item__amount transaction-text">-$68.00</p>
+                            </li>
+                            <li class="transaction__item transaction-item">
+                                <img src="img/main/home-page/transaction-icon.svg" alt="icon transaction"
+                                    class="transaction-item__icon">
+                                <div class="transaction-item__text">
+                                    <a class="transaction-item__operation" href="#">Transaction</a>
+                                    <h5 class="transaction-item__name">Joel Kenley</h5>
+                                </div>
+                                <p class="transaction-item__amount transaction-text">-$68.00</p>
+                            </li>
+                        </ul>
+                        <form class="transaction__exchange exchange">
+                            <h4 class="transaction__title transaction-text">Money Exchange</h4>
+                            <div class="exchange__conteiner">
+                                <div class="exchange-from exchange__item">
+                                    <div class="exchange-from__Currency-select exchange__Currency-select"
+                                        data-select-conteiner="">
+                                        <div class="exchange-from__item-selected exchange__item-selected"
+                                            data-select-item="">
+                                            <div class="exchange-from__country exchange__country">
+                                                <img src="img/main/home-page/country/INR.svg" alt="flag">
+                                                <span>INR</span>
+                                            </div>
+                                            <span class="exchange-from__name-country exchange__name-country">Indian
+                                                Rupees
+                                            </span>
+                                        </div>
+                                        <ul class="exchange__Currency-select__list"
+                                            data-select-list=".exchange__Currency-select__item">
+                                            <li class="exchange__Currency-select__item">
+                                                <div class="exchange-from__country exchange__country">
+                                                    <img src="img/main/home-page/country/INR.svg" alt="flag">
+                                                    <span>INR</span>
+                                                </div>
+                                                <span class="exchange-from__name-country exchange__name-country">Indian
+                                                    Rupees
+                                                </span>
+                                            </li>
+                                            <li class="exchange__Currency-select__item">
+                                                <div class="exchange-to__country exchange__country">
+                                                    <img src="img/main/home-page/country/USD.svg" alt="flag">
+                                                    <span>USD</span>
+                                                </div>
+                                                <span class="exchange-to__name-country exchange__name-country">United
+                                                    States
+                                                    Dollar
+                                                </span>
+                                            </li>
+                                            <li class="exchange__Currency-select__item">
+                                                <div class="exchange-from__country exchange__country">
+                                                    <img src="img/main/home-page/country/UA.svg" alt="flag">
+                                                    <span>UAH</span>
+                                                </div>
+                                                <span class="exchange-from__name-country exchange__name-country">
+                                                    Ukrainian hryvnia
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <input type="number" placeholder="from"
+                                        class="exchange-from__input exchange__input">
+                                </div>
+                                <div class="exchange-to exchange__item">
+                                    <div class="exchange-to__Currency exchange__Currency-select"
+                                        data-select-conteiner="">
+                                        <div class="exchange-to__item-selected exchange__item-selected"
+                                            data-select-item="">
+                                            <div class="exchange-to__country exchange__country">
+                                                <img src="img/main/home-page/country/USD.svg" alt="flag">
+                                                <span>USD</span>
+                                            </div>
+                                            <span class="exchange-to__name-country exchange__name-country">United States
+                                                Dollar
+                                            </span>
+                                        </div>
+                                        <ul class="exchange__Currency-select__list"
+                                            data-select-list=".exchange__Currency-select__item">
+                                            <li class="exchange__Currency-select__item">
+                                                <div class="exchange-from__country exchange__country">
+                                                    <img src="img/main/home-page/country/INR.svg" alt="flag">
+                                                    <span>INR</span>
+                                                </div>
+                                                <span class="exchange-from__name-country exchange__name-country">Indian
+                                                    Rupees
+                                                </span>
+                                            </li>
+                                            <li class="exchange__Currency-select__item">
+                                                <div class="exchange-to__country exchange__country">
+                                                    <img src="img/main/home-page/country/USD.svg" alt="flag">
+                                                    <span>USD</span>
+                                                </div>
+                                                <span class="exchange-to__name-country exchange__name-country">United
+                                                    States
+                                                    Dollar
+                                                </span>
+                                            </li>
+                                            <li class="exchange__Currency-select__item">
+                                                <div class="exchange-from__country exchange__country">
+                                                    <img src="img/main/home-page/country/UA.svg" alt="flag">
+                                                    <span>UAH</span>
+                                                </div>
+                                                <span class="exchange-from__name-country exchange__name-country">
+                                                    Ukrainian hryvnia
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <input type="number" placeholder="to" readonly
+                                        class="exchange-to__input exchange__input">
+                                </div>
+                            </div>
+                            <button class="exchange__button">Exchange</button>
+                        </form>
+                        <div class="transaction__supported-currency supported-currency">
+                            <p class="supported-currency__text">Supported Currency</p>
+                            <ul class="supported-currency__choice">
+                                <li class="supported-currency__item">
+                                    <a href="#">
+                                        <img src="img/main/home-page/supported currency/01.svg" alt="icon">
+                                    </a>
+                                </li>
+                                <li class="supported-currency__item">
+                                    <a href="#">
+                                        <img src="img/main/home-page/supported currency/02.svg" alt="icon">
+                                    </a>
+                                </li>
+                                <li class="supported-currency__item">
+                                    <a href="#">
+                                        <img src="img/main/home-page/supported currency/03.svg" alt="icon">
+                                    </a>
+                                </li>
+                                <li class="supported-currency__item">
+                                    <a href="#">
+                                        <img src="img/main/home-page/supported currency/04.svg" alt="icon">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-products">
+                <div class="our-products__conteiner conteiner" data-tab-conteiner="tabs-one">
+                    <div class="our-products__control-items">
+                        <div class="our-products__info">
+                            <h2 class="our-products__title title-page">Our <span>Products</span></h2>
+                            <p class="our-products__paragraph text">
+                                Discover a range of comprehensive and customizable banking products at YourBank,
+                                designed to
+                                suit your unique financial needs and aspirations
+                            </p>
+                        </div>
+                        <div class="our-products__select-buttons buttons">
+                            <a href="#" class="buttons__button button-active" data-tab-button="1">For Individuals</a>
+                            <a href="#" class="buttons__button" data-tab-button="2">For Businesses</a>
+                        </div>
+                    </div>
+                    <div class="our-products__selects" data-anim="true">
+                        <div class="our-products__select select-our-products tab-open" data-tab-id="1">
+                            <div class="select-our-products__item item-select-our-products">
+                                <img src="img/main/our-products/icons/01.svg" alt="icon"
+                                    class="item-select-our-products__icon">
+                                <h4 class="item-select-our-products__title">Checking Accounts</h4>
+                                <p class="item-select-our-products__paragraph text">
+                                    Enjoy easy and convenient access to your funds with our range of checking account
+                                    options. Benefit from features such as online and mobile banking, debit cards, and
+                                    free
+                                    ATM access.
+                                </p>
+                            </div>
+                            <div class="select-our-products__item item-select-our-products">
+                                <img src="img/main/our-products/icons/02.svg" alt="icon"
+                                    class="item-select-our-products__icon">
+                                <h4 class="item-select-our-products__title">Savings Accounts</h4>
+                                <p class="item-select-our-products__paragraph text">
+                                    Build your savings with our competitive interest rates and flexible savings account
+                                    options. Whether you're saving for a specific goal or want to grow your wealth over
+                                    time, we have the right account for you.
+                                </p>
+                            </div>
+                            <div class="select-our-products__item item-select-our-products">
+                                <img src="img/main/our-products/icons/03.svg" alt="icon"
+                                    class="item-select-our-products__icon">
+                                <h4 class="item-select-our-products__title">Loans and Mortgages</h4>
+                                <p class="item-select-our-products__paragraph text">
+                                    Realize your dreams with our flexible loan and mortgage options. From personal loans
+                                    to home mortgages, our experienced loan officers are here to guide you through the
+                                    application process and help you secure the funds you need.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="our-products__select select-our-products" data-tab-id="2">
+                            <div class="select-our-products__item item-select-our-products">
+                                <img src="img/main/our-products/icons/01.svg" alt="icon"
+                                    class="item-select-our-products__icon">
+                                <h4 class="item-select-our-products__title">Checking Accounts</h4>
+                                <p class="item-select-our-products__paragraph text">
+                                    Enjoy easy and convenient access to your funds with our range of checking account
+                                    options. Benefit from features such as online and mobile banking, debit cards, and
+                                    free
+                                    ATM access.
+                                </p>
+                            </div>
+                            <div class="select-our-products__item item-select-our-products">
+                                <img src="img/main/our-products/icons/02.svg" alt="icon"
+                                    class="item-select-our-products__icon">
+                                <h4 class="item-select-our-products__title">Savings Accounts</h4>
+                                <p class="item-select-our-products__paragraph text">
+                                    Build your savings with our competitive interest rates and flexible savings account
+                                    options. Whether you're saving for a specific goal or want to grow your wealth over
+                                    time, we have the right account for you.
+                                </p>
+                            </div>
+                            <div class="select-our-products__item item-select-our-products">
+                                <img src="img/main/our-products/icons/03.svg" alt="icon"
+                                    class="item-select-our-products__icon">
+                                <h4 class="item-select-our-products__title">Loans and Mortgages</h4>
+                                <p class="item-select-our-products__paragraph text">
+                                    Realize your dreams with our flexible loan and mortgage options. From personal loans
+                                    to home mortgages, our experienced loan officers are here to guide you through the
+                                    application process and help you secure the funds you need.
+                                </p>
+                            </div>
+                            <div class="select-our-products__item item-select-our-products">
+                                <img src="img/main/our-products/icons/03.svg" alt="icon"
+                                    class="item-select-our-products__icon">
+                                <h4 class="item-select-our-products__title">Loans and Mortgages</h4>
+                                <p class="item-select-our-products__paragraph text">
+                                    Realize your dreams with our flexible loan and mortgage options. From personal loans
+                                    to home mortgages, our experienced loan officers are here to guide you through the
+                                    application process and help you secure the funds you need.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="use-cases">
+                <div class="use-cases__conteiner conteiner">
+                    <h2 class="use-cases__title title-page"><span>Use Cases</span></h2>
+                    <p class="use-cases__paragraph text">
+                        At YourBank, we cater to the diverse needs of individuals and businesses alike, offering a wide
+                        range of financial solutions
+                    </p>
+                    <div class="use-cases__content" data-anim="true">
+                        <div class="use-cases__block">
+                            <div class="use-cases__cards">
+                                <div class="use-cases__card card-use-cases">
+                                    <img src="img/main/use-cases/icon/block-one/01.svg" alt="icon"
+                                        class="card-use-cases__icon">
+                                    <p class="card-use-cases__paragraph">Managing Personal Finances</p>
+                                </div>
+                                <div class="use-cases__card card-use-cases">
+                                    <img src="img/main/use-cases/icon/block-one/02.svg" alt="icon"
+                                        class="card-use-cases__icon">
+                                    <p class="card-use-cases__paragraph">Saving for the Future</p>
+                                </div>
+                                <div class="use-cases__card card-use-cases">
+                                    <img src="img/main/use-cases/icon/block-one/03.svg" alt="icon"
+                                        class="card-use-cases__icon">
+                                    <p class="card-use-cases__paragraph">Homeownership</p>
+                                </div>
+                                <div class="use-cases__card card-use-cases">
+                                    <img src="img/main/use-cases/icon/block-one/04.svg" alt="icon"
+                                        class="card-use-cases__icon">
+                                    <p class="card-use-cases__paragraph">Education Funding</p>
+                                </div>
+                            </div>
+                            <div class="use-cases__info info-use-cases">
+                                <h3 class="info-use-cases__title">For Individuals</h3>
+                                <p class="info-use-cases__paragraph text">
+                                    For individuals, our mortgage services pave the way to homeownership, and our
+                                    flexible personal loans provide vital support during various life milestones. We
+                                    also prioritize retirement planning, ensuring a financially secure future for our
+                                    customers
+                                </p>
+                                <div class="info-use-cases__percentages">
+                                    <div class="info-use-cases__percentage percentage-info-use-cases">
+                                        <h3 class="percentage-info-use-cases__number">78%</h3>
+                                        <p class="percentage-info-use-cases__some-text text">
+                                            Secure Retirement Planning
+                                        </p>
+                                    </div>
+                                    <div class="info-use-cases__percentage percentage-info-use-cases">
+                                        <h3 class="percentage-info-use-cases__number">63%</h3>
+                                        <p class="percentage-info-use-cases__some-text text">
+                                            Manageable Debt Consolidation
+                                        </p>
+                                    </div>
+                                    <div class="info-use-cases__percentage percentage-info-use-cases">
+                                        <h3 class="percentage-info-use-cases__number">91%</h3>
+                                        <p class="percentage-info-use-cases__some-text text">
+                                            Reducing financial burdens
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#" class="info-use-cases__button button-two">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="use-cases__block">
+                            <div class="use-cases__cards">
+                                <div class="use-cases__card card-use-cases">
+                                    <img src="img/main/use-cases/icon/block-two/01.svg" alt="icon"
+                                        class="card-use-cases__icon">
+                                    <p class="card-use-cases__paragraph">Managing Personal Finances</p>
+                                </div>
+                                <div class="use-cases__card card-use-cases">
+                                    <img src="img/main/use-cases/icon/block-two/02.svg" alt="icon"
+                                        class="card-use-cases__icon">
+                                    <p class="card-use-cases__paragraph">Saving for the Future</p>
+                                </div>
+                                <div class="use-cases__card card-use-cases">
+                                    <img src="img/main/use-cases/icon/block-two/03.svg" alt="icon"
+                                        class="card-use-cases__icon">
+                                    <p class="card-use-cases__paragraph">Homeownership</p>
+                                </div>
+                                <div class="use-cases__card card-use-cases">
+                                    <img src="img/main/use-cases/icon/block-two/04.svg" alt="icon"
+                                        class="card-use-cases__icon">
+                                    <p class="card-use-cases__paragraph">Education Funding</p>
+                                </div>
+                            </div>
+                            <div class="use-cases__info info-use-cases">
+                                <h3 class="info-use-cases__title">For Business</h3>
+                                <p class="info-use-cases__paragraph text">
+                                    For businesses, we empower growth with working capital solutions that optimize cash
+                                    flow, and our tailored financing options fuel business expansion. Whatever your
+                                    financial aspirations, YourBank is committed to providing the right tools and
+                                    support to achieve them
+                                </p>
+                                <div class="info-use-cases__percentages">
+                                    <div class="info-use-cases__percentage percentage-info-use-cases">
+                                        <h3 class="percentage-info-use-cases__number">65%</h3>
+                                        <p class="percentage-info-use-cases__some-text text">
+                                            Cash Flow Management
+                                        </p>
+                                    </div>
+                                    <div class="info-use-cases__percentage percentage-info-use-cases">
+                                        <h3 class="percentage-info-use-cases__number">70%</h3>
+                                        <p class="percentage-info-use-cases__some-text text">
+                                            Drive Business Expansion
+                                        </p>
+                                    </div>
+                                    <div class="info-use-cases__percentage percentage-info-use-cases">
+                                        <h3 class="percentage-info-use-cases__number">45%</h3>
+                                        <p class="percentage-info-use-cases__some-text text">
+                                            Streamline payroll processing
+                                        </p>
+                                    </div>
+                                </div>
+                                <a href="#" class="info-use-cases__button button-two">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="our-features">
+                <div class="our-features__conteiner conteiner">
+                    <div class="our-features__title title-page">Our <span>Features</span></div>
+                    <p class="our-features__paragraph text">
+                        Experience a host of powerful features at YourBank,
+                        including seamless online banking, secure transactions, and personalized financial insights, all
+                        designed to enhance your banking experience
+                    </p>
+                    <div class="our-features__tabs" data-tab-conteiner="tabs-two">
+                        <div class="our-features__tab-buttons">
+                            <a href="#" class="our-features__tab-button button-two button-active"
+                                data-tab-button="3">Online
+                                Banking</a>
+                            <a href="#" class="our-features__tab-button button-two" data-tab-button="4">Financial
+                                Tools</a>
+                            <a href="#" class="our-features__tab-button button-two" data-tab-button="5">Customer
+                                Support</a>
+                        </div>
+                        <div class="our-features__tabs-content" data-anim="true">
+                            <div class="our-features__tab tab-our-features tab-open" data-tab-id="3">
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">24/7 Account Access</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Enjoy the convenience of accessing your accounts anytime, anywhere through our
+                                        secure online banking platform. Check balances, transfer funds, and pay bills
+                                        with ease.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Mobile Banking App</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Stay connected to your finances on the go with our user-friendly mobile banking
+                                        app. Easily manage your accounts, deposit checks, and make payments from your
+                                        smartphone or tablet.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Secure Transactions</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Rest assured knowing that your transactions are protected by industry-leading
+                                        security measures. We employ encryption and multi-factor authentication to
+                                        safeguard your financial information.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Bill Pay and Transfers</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Save time and avoid late fees with our convenient bill pay service. Set up
+                                        recurring payments or make one-time transfers between your accounts with just a
+                                        few clicks.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-features__tab tab-our-features" data-tab-id="4">
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">24/7 Account Access</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Enjoy the convenience of accessing your accounts anytime, anywhere through our
+                                        secure online banking platform. Check balances, transfer funds, and pay bills
+                                        with ease.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Mobile Banking App</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Stay connected to your finances on the go with our user-friendly mobile banking
+                                        app. Easily manage your accounts, deposit checks, and make payments from your
+                                        smartphone or tablet.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Secure Transactions</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Rest assured knowing that your transactions are protected by industry-leading
+                                        security measures. We employ encryption and multi-factor authentication to
+                                        safeguard your financial information.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Bill Pay and Transfers</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Save time and avoid late fees with our convenient bill pay service. Set up
+                                        recurring payments or make one-time transfers between your accounts with just a
+                                        few clicks.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Secure Transactions</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Rest assured knowing that your transactions are protected by industry-leading
+                                        security measures. We employ encryption and multi-factor authentication to
+                                        safeguard your financial information.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Bill Pay and Transfers</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Save time and avoid late fees with our convenient bill pay service. Set up
+                                        recurring payments or make one-time transfers between your accounts with just a
+                                        few clicks.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="our-features__tab tab-our-features" data-tab-id="5">
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">24/7 Account Access</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Enjoy the convenience of accessing your accounts anytime, anywhere through our
+                                        secure online banking platform. Check balances, transfer funds, and pay bills
+                                        with ease.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Mobile Banking App</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Stay connected to your finances on the go with our user-friendly mobile banking
+                                        app. Easily manage your accounts, deposit checks, and make payments from your
+                                        smartphone or tablet.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Secure Transactions</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Rest assured knowing that your transactions are protected by industry-leading
+                                        security measures. We employ encryption and multi-factor authentication to
+                                        safeguard your financial information.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Bill Pay and Transfers</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Save time and avoid late fees with our convenient bill pay service. Set up
+                                        recurring payments or make one-time transfers between your accounts with just a
+                                        few clicks.
+                                    </p>
+                                </div>
+                                <div class="tab-our-features__item">
+                                    <div class="tab-our-features__header">
+                                        <h4 class="tab-our-features__title">Bill Pay and Transfers</h4>
+                                        <a href="#" class="tab-our-features__link">
+                                            <img src="img/main/our-features/icon/arrow.svg" alt="arrow">
+                                        </a>
+                                    </div>
+                                    <p class="tab-our-features__paragraph text">
+                                        Save time and avoid late fees with our convenient bill pay service. Set up
+                                        recurring payments or make one-time transfers between your accounts with just a
+                                        few clicks.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="frequently-questions">
+                <div class="frequently-questions__conteiner conteiner">
+                    <h2 class="frequently-questions__title title-page"><span>Frequently</span> Asked Questions</h2>
+                    <p class="frequently-questions__paragraph text">
+                        Still you have any questions? Contact our Team via
+                        <a href="#">support@yourbank.com</a>
+                    </p>
+                    <div class="frequently-questions__content">
+                        <div class="frequently-questions__askeds" data-anim="true">
+                            <div class="frequently-questions__asked asked-frequently-questions">
+                                <h4 class="asked-frequently-questions__title">How do I open an account with YourBank?
+                                </h4>
+                                <p class="frequently-questions__asked__text text">
+                                    Opening an account with YourBank is easy. Simply visit our website and click on the
+                                    "Open an Account" button. Follow the prompts, provide the required information, and
+                                    complete the application process. If you have any questions or need assistance, our
+                                    customer support team is available to help.
+                                </p>
+                            </div>
+                            <div class="frequently-questions__asked asked-frequently-questions">
+                                <h4 class="asked-frequently-questions__title">What documents do I need to provide to
+                                    apply for a loan?
+                                </h4>
+                                <p class="frequently-questions__asked__text text">
+                                    The documents required for a loan application may vary depending on the type of loan
+                                    you are applying for. Generally, you will need to provide identification documents
+                                    (such as a passport or driver's license), proof of income (such as pay stubs or tax
+                                    returns), and information about the collateral (if applicable). Our loan officers
+                                    will guide you through the specific requirements during the application process.
+                                </p>
+                            </div>
+                            <div class="frequently-questions__asked asked-frequently-questions">
+                                <h4 class="asked-frequently-questions__title">How do I open an account with YourBank?
+                                </h4>
+                                <p class="frequently-questions__asked__text text">
+                                    Accessing your accounts online is simple and secure. Visit our website and click on
+                                    the "Login" button. Enter your username and password to access your accounts. If you
+                                    haven't registered for online banking, click on the "Enroll Now" button and follow
+                                    the registration process. If you need assistance, our customer support team is
+                                    available to guide you.
+                                </p>
+                            </div>
+                            <div class="frequently-questions__asked asked-frequently-questions">
+                                <h4 class="asked-frequently-questions__title">Are my transactions and personal
+                                    information secure?
+                                </h4>
+                                <p class="frequently-questions__asked__text text">
+                                    At YourBank, we prioritize the security of your transactions and personal
+                                    information. We employ industry-leading encryption and multi-factor authentication
+                                    to ensure that your data is protected. Additionally, we regularly update our
+                                    security measures to stay ahead of emerging threats. You can bank with confidence
+                                    knowing that we have robust security systems in place.
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="frequently-questions__button button-two">Load All FAQ’s</a>
+                    </div>
+                </div>
+            </div>
+            <div class="our-testimonials">
+                <div class="our-testimonials__conteiner conteiner" data-tab-conteiner="slider-tab">
+                    <div class="our-testimonials__content">
+                        <div class="our-testimonials__info">
+                            <h2 class="our-testimonials__title title-page">Our <span>Testimonials</span></h2>
+                            <p class="our-testimonials__paragraph text">
+                                Discover how YourBank has transformed lives with innovative digital solutions and
+                                personalized customer service. See why our clients trust us for a secure and prosperous
+                                financial journey
+                            </p>
+                        </div>
+                        <div class="our-testimonials__tabs-controllers buttons">
+                            <a href="#" class="buttons__button button-active" data-tab-button="1">For Individuals</a>
+                            <a href="#" class="buttons__button" data-tab-button="2">For Businesses</a>
+                        </div>
+                    </div>
+                    <div class="our-testimonials__tabs tabs-our-testimonials">
+                        <div class="tabs-our-testimonials__slider swiper tab-open" data-tab-id="1">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Sara T</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Emily G</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                            </div>
+                            <div class="tab-slider-buttons">
+                                <div class="tab-slider-button-prev">
+                                    <img src="img/main/our-testimonials/slider/arrow-left.svg" alt="arrow">
+                                </div>
+                                <div class="tab-slider-button-next">
+                                    <img src="img/main/our-testimonials/slider/arrow-rigth.svg" alt="arrow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-our-testimonials__slider swiper" data-tab-id="2">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Sara T</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Emily G</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">John D</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Sara T</span>
+                                </div>
+                                <div class="swiper-slide tabs-our-testimonials__slide slide-tabs-our-testimonials">
+                                    <div class="slide-tabs-our-testimonials__icon">
+                                        <img src="img/main/our-testimonials/slider/comment.svg" alt="comment">
+                                    </div>
+                                    <p class="slide-tabs-our-testimonials__paragraph">
+                                        I recently started my own business, and YourBank has been instrumental in
+                                        helping me set up my business accounts and secure the financing I needed. Their
+                                        expert guidance and tailored solutions have been invaluable.
+                                    </p>
+                                    <span class="slide-tabs-our-testimonials__user-name">Sara T</span>
+                                </div>
+                            </div>
+                            <div class="tab-slider-buttons">
+                                <div class="tab-slider-button-prev">
+                                    <img src="img/main/our-testimonials/slider/arrow-left.svg" alt="arrow">
+                                </div>
+                                <div class="tab-slider-button-next">
+                                    <img src="img/main/our-testimonials/slider/arrow-rigth.svg" alt="arrow">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="start">
+                <div class="start__conteiner conteiner">
+                    <div class="start__content">
+                        <div class="start__info">
+                            <h2 class="start__title title-page">
+                                Start your financial journey with <span>YourBank
+                                    today!</span>
+                            </h2>
+                            <p class="start__paragraph text">
+                                Ready to take control of your finances? Join YourBank now, and let us help you achieve
+                                your
+                                financial goals with our tailored solutions and exceptional customer service
+                            </p>
+                        </div>
+                        <a href="sign-up.html" class="start__button">Open Account</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer" data-anim="true">
+            <div class="footer__conteiner conteiner">
+                <div class="footer__menu header__menu">
+                    <a href="#"><img src="img/header/Logo.svg" alt="logo" class="footer__logo header__logo"></img></a>
+                    <nav class="footer__nav footer__item">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="security.html">Security</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer__communication footer__item communication-footer">
+                        <li class="communication-footer__item">
+                            <img src="img/footer/icon-item/gmail.svg" alt="gmail" class="communication-footer__icon">
+                            <a href="#">hello@skillbirdge.com</a>
+                        </li>
+                        <li class="communication-footer__item">
+                            <img src="img/footer/icon-item/phone.svg" alt="tel" class="communication-footer__icon">
+                            <a href="tel:+91 91813 23 2309">+91 91813 23 2309</a>
+                        </li>
+                        <li class="communication-footer__item">
+                            <img src="img/footer/icon-item/location.svg" alt="location"
+                                class="communication-footer__icon">
+                            <a href="#">Somewhere in the World</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__social-networks social-networks-footer">
+                    <ul class="social-networks-footer__list">
+                        <li>
+                            <a href="#">
+                                <img src="img/footer/social-networks/facebook.svg" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/footer/social-networks/twiter.svg" alt="twiter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/footer/social-networks/instagram.svg" alt="instagram">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="social-networks-footer__text text">YourBank All Rights Reserved</p>
+                    <p class="social-networks-footer__text text"><span>Privacy Policy</span> Terms of Service</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/movingElements.js"></script>
+    <script src="js/select.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/scroll-anim.js"></script>
+</body>
+
+</html>

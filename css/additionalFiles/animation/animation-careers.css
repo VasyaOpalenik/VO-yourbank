@@ -1,0 +1,125 @@
+/* welcom-page */
+/* welcom-page before class anim */
+.welcom-page__block {
+    overflow: hidden;
+    transition: transform 1.2s ease;
+    transform: translateX(-200%);
+}
+
+.welcom-page__block::before {
+    transition: all 0.4s ease-out 1.2s;
+    transform: translateX(100%);
+}
+
+/* welcom-page__info */
+.welcom-page__info {
+    transition: all 0.8s ease 1.6s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+/* welcom-page__photo */
+.welcom-page__photo {
+    transition: all 0.6s ease 1.8s;
+    opacity: 0;
+    transform: scale(0);
+}
+
+/* welcom-page after class anim */
+.welcom-page__block.anim {
+    overflow: hidden;
+    transform: translateX(0);
+}
+
+.welcom-page__block.anim::before {
+    transform: translate(0);
+}
+
+/* welcom-page__info */
+.welcom-page__block.anim .welcom-page__info {
+    transform: translate(0);
+    opacity: 1;
+}
+
+/* welcom-page__photo */
+.welcom-page__block.anim .welcom-page__photo {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* our-values */
+/* our-values before class anim */
+/* value-our-values */
+.value-our-values {
+    overflow: hidden;
+}
+
+.value-our-values__paragraph,
+.value-our-values__title {
+    transition: all 0.6s ease;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.value-our-values__paragraph {
+    transition-delay: 0.4s;
+}
+
+.value-our-values::before {
+    transition: transform 0.8s ease;
+    transform: translateY(-100%);
+}
+
+/* our-values after class anim */
+.our-values__values.anim .value-our-values__paragraph,
+.our-values__values.anim .value-our-values__title {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.our-values__values.anim .value-our-values::before {
+    transform: translateY(0);
+}
+
+/* our-benefits */
+/* our-benefits before class anim */
+/* our-benefits__benefits */
+.our-benefits__benefits {
+    overflow: hidden;
+}
+
+.benefit-our-benefits {
+    transition: all 0.8s ease;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+/* our-benefits after class anim */
+/* our-benefits__benefits */
+.our-benefits__benefits.anim .benefit-our-benefits {
+    transform: translate(0);
+    opacity: 1;
+}
+
+/* job-openings */
+/* job-openings before class anim */
+/* job-openings__list */
+.job-openings__list {
+    overflow: hidden;
+}
+
+.item-job-openings {
+    transition: all 0.8s ease;
+    opacity: 0;
+    transform: translateX(-200%);
+}
+
+.item-job-openings:nth-child(even) {
+    transform: translateX(200%);
+}
+
+/* job-openings after class anim */
+.job-openings__list.anim .item-job-openings {
+    transform: translate(0);
+    opacity: 1;
+}

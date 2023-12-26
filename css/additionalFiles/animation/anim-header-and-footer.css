@@ -1,0 +1,23 @@
+/* header */
+/* header before class anim */
+.header {
+    transition: all .8s ease;
+    opacity: 0;
+}
+
+/* header after class anim */
+.header.anim {
+    opacity: 1;
+}
+
+/* footer */
+/* footer before class anim */
+.footer {
+    transition: all 0.8s ease-out;
+    transform: translateY(50%);
+}
+
+/* footer after class anim */
+.footer.anim {
+    transform: translate(0);
+}

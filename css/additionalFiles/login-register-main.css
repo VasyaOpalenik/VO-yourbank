@@ -1,0 +1,210 @@
+/* login */
+.login {
+    padding-top: 10.5%;
+}
+
+.login:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:768px) {
+    .login {
+        padding-top: 130px;
+    }
+}
+
+.login__block-conteiner {
+    margin: 0 auto;
+    padding: 6.2% 10.5%;
+    max-width: 1296px;
+    text-align: center;
+    background: url("../../img/login/bg-photo.png") no-repeat center center / cover;
+    border-radius: 20px;
+    border: 1px solid #262626;
+}
+
+.login__title:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.login__sub-title:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+/* form-login */
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* form-login__inputs */
+.form-login__inputs {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.form-login__inputs:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.form-login__input {
+    width: 48%;
+    flex: 1 1 auto;
+    padding: 24px;
+    border-radius: 88px;
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+}
+
+.form-login__password-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-login__password-conteiner img {
+    max-width: 24px;
+    max-height: 24px;
+    cursor: pointer;
+}
+
+.form-login__input input {
+    color: #CAFF33;
+    width: 100%;
+    background-color: #1A1A1A;
+}
+
+/* form-login__forgot-password */
+.text.form-login__forgot-password {
+    color: white;
+}
+
+.text.form-login__forgot-password:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.text.form-login__forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* form-login__buttons */
+.form-login__buttons {
+    width: 100%;
+    max-width: 518px;
+}
+
+.form-login__buttons:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.form-login__button {
+    width: 100%;
+}
+
+.form-login__button:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+/* form-login__continue-with */
+.form-login__continue-with {
+    width: 100%;
+    max-width: 518px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-login__continue-with:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.form-login__continue-with span {
+    text-wrap: nowrap;
+}
+
+.form-login__continue-with::before,
+.form-login__continue-with::after {
+    content: "";
+    display: block;
+    background-color: #B3B3B3;
+    width: 100%;
+    height: 1px;
+}
+
+/* social-networks-form-login */
+.social-networks-form-login {
+    width: 100%;
+    max-width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-networks-form-login__item {
+    display: block;
+    width: 0;
+    height: 0;
+    position: relative;
+    padding-top: 28.4%;
+    padding-left: 28.4%;
+}
+
+.social-networks-form-login__item img {
+    transition: transform 0.8s ease;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+}
+
+.social-networks-form-login__item:hover img {
+    transform: scale(0.8);
+}
+
+/* our-testimonials */
+.our-testimonials-login-register {
+    padding-bottom: 150px;
+}
+
+
+/* input error */
+.form-login__input.error-password,
+.form-login__input.error {
+    position: relative;
+    border-color: red;
+}
+
+.form-login__input.error-password input,
+.form-login__input.error input {
+    color: red;
+}
+
+.form-login__input.error-password::after,
+.form-login__input.error::after {
+    content: "Заповніть поле!";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(50%, 150%);
+    margin-top: 15px;
+    text-align: start;
+    font-size: 12px;
+    color: red;
+}
+
+.form-login__input.error-password::after {
+    content: "Пароль повинен містити більше 5 символів";
+}
+
+.form-login__input.error-password input::placeholder,
+.form-login__input.error input::placeholder {
+    color: red;
+}

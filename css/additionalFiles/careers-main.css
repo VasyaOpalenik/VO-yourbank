@@ -1,0 +1,273 @@
+/* our-values */
+.our-values:not(:last-child) {
+    margin-bottom: 150px;
+}
+
+.our-values__title:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.our-values__paragraph {
+    max-width: 1296px;
+}
+
+.our-values__paragraph:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.our-values__values {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 80px 0px;
+}
+
+/* value-our-values */
+.value-our-values {
+    display: flex;
+    width: 48.1%;
+}
+
+.value-our-values::before {
+    content: "";
+    display: block;
+    min-height: 100%;
+    min-width: 1px;
+    background-color: #CAFF33;
+    margin-right: 30px;
+}
+
+.value-our-values__title {
+    color: #4C4C4D;
+}
+
+.value-our-values__title:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+/* our-values adaptive */
+@media screen and (max-width: 768px) {
+    .our-values {
+        text-align: center;
+    }
+
+    .value-our-values {
+        width: 100%;
+        text-align: start;
+    }
+}
+
+/* our-benefits */
+.our-benefits:not(:last-child) {
+    margin-bottom: 150px;
+}
+
+.our-benefits__title:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.our-benefits__paragraph {
+    max-width: 1296px;
+}
+
+.our-benefits__paragraph:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.our-benefits__benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 100px 0px;
+}
+
+/* benefit-our-benefits */
+.benefit-our-benefits {
+    width: 46.8%;
+    border-radius: 50px 20px;
+    padding: 50px;
+    border: 1px solid rgba(202, 255, 51, 0.10);
+    background: linear-gradient(106deg, rgba(202, 255, 51, 0.05) -29.45%, rgba(202, 255, 51, 0.00) 27.86%), linear-gradient(267deg, #1C1C1C 40.67%, rgba(28, 28, 28, 0.00) 99.81%);
+}
+
+.benefit-our-benefits__header {
+    display: flex;
+    align-items: center;
+    gap: 0px 20px;
+}
+
+.benefit-our-benefits__header:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.benefit-our-benefits__icon {
+    max-width: 98px;
+    max-height: 98px;
+    border-radius: 50%;
+}
+
+.benefit-our-benefits__title {
+    font-size: 24px;
+}
+
+/* our-benefits adaptive */
+@media screen and (max-width: 992px) {
+    .benefit-our-benefits {
+        width: 100%;
+    }
+
+    .our-benefits__benefits {
+        gap: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .our-benefits {
+        text-align: center;
+    }
+
+    .benefit-our-benefits {
+        padding: 24px;
+        text-align: start;
+    }
+
+    .benefit-our-benefits__title {
+        font-size: 18px;
+    }
+
+    .benefit-our-benefits__icon {
+        max-width: 72px;
+        max-height: 72px;
+    }
+}
+
+/* job-openings */
+.job-openings:not(:last-child) {
+    margin-bottom: 150px;
+}
+
+.job-openings__title:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.job-openings__paragraph:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.job-openings__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 0px;
+}
+
+/* item-job-openings */
+.item-job-openings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    border: 1px solid #262626;
+    background-color: #1C1C1C;
+    padding: 3.1%;
+    width: 49%;
+}
+
+.item-job-openings__job-name {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+/* address-item-job-openings */
+.address-item-job-openings {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.address-item-job-openings__item {
+    color: #B3B3B3;
+    border-radius: 68px;
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+    padding: 8px 16px;
+}
+
+.address-item-job-openings:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+/* about-item-job-openings */
+.about-item-job-openings:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.requirements-item-job-openings__title,
+.about-item-job-openings__title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* -------------------------- */
+
+.item-job-openings__requirements {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item-job-openings__requirements:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.item-job-openings__requirement {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.item-job-openings__requirement::before {
+    content: "";
+    display: block;
+    background: url("../../img/carrers-page/job-openings/icon/backpack.svg") no-repeat center center / cover;
+    width: 24px;
+    height: 24px;
+}
+
+/* item-job-openings__button */
+.item-job-openings__button {
+    display: inline-block;
+    color: #1C1C1C;
+    padding: 16px 30px;
+    border-radius: 82px;
+    background-color: #CAFF33;
+    font-weight: 500;
+    transition: all 0.8s ease;
+    border: 1px solid transparent;
+    max-width: 160px;
+}
+
+.item-job-openings__button:hover {
+    background-color: #1C1C1C;
+    color: #CAFF33;
+    border-color: #CAFF33;
+}
+
+/* job-openings adaptive */
+@media screen and (max-width: 992px) {
+    .item-job-openings {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .job-openings__paragraph,
+    .job-openings__title {
+        text-align: center;
+    }
+}

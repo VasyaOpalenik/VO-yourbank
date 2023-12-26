@@ -1,0 +1,50 @@
+/* popups */
+.popup {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    background-color: #1C1C1C;
+    z-index: 1000;
+    border-top: 1px solid #8daf2d;
+    transition: transform 0.8s ease;
+}
+
+.popup.open {
+    transform: translateY(0);
+}
+
+.popup__conteiner {
+    padding: 40px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    position: relative;
+}
+
+.popup__conteiner::after {
+    content: "";
+    background: url("../../img/register/bg.png") no-repeat top right / cover;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.popup__close-button {
+    text-wrap: nowrap;
+    position: relative;
+    z-index: 1;
+}
+
+.popup__info {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}

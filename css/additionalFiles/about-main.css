@@ -1,0 +1,201 @@
+/* mission-vision */
+.mission-vision:not(:last-child) {
+    margin-bottom: 150px;
+}
+
+.mission-vision__title:not(:last-child) {
+    margin-bottom: 14px;
+    max-width: 1296px;
+}
+
+.mission-vision__paragraph:not(:last-child) {
+    margin-bottom: 80px;
+    max-width: 1296px;
+}
+
+/* block-mission-vision */
+.block-mission-vision {
+    display: flex;
+    align-items: center;
+}
+
+.block-mission-vision:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.block-mission-vision:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.block-mission-vision__photo {
+    min-width: 41%;
+    text-align: center;
+    position: relative;
+    border-radius: 50px 50px 20px 20px;
+    padding: 3.9% 3.9% 0px 3.9%;
+    border: 1px solid #262626;
+    background: linear-gradient(106deg, rgba(202, 255, 51, 0.05) -29.45%, rgba(202, 255, 51, 0.00) 27.86%);
+}
+
+.block-mission-vision__photo::before {
+    position: absolute;
+    content: "";
+    display: block;
+    background: url("../../img/about/mission-and-vision/background.svg") no-repeat center center / cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.block-mission-vision__photo img {
+    position: relative;
+    z-index: 2;
+    max-width: 100%;
+    border-radius: 50px 50px 0px 0px;
+}
+
+/* block-mission-vision__info */
+.block-mission-vision__info {
+    padding-left: 3.3%;
+    position: relative;
+}
+
+.block-mission-vision__info::before {
+    content: "";
+    display: block;
+    width: 1px;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #CAFF33;
+}
+
+.block-mission-vision:nth-child(even) .block-mission-vision__info {
+    padding: 0px 3.3% 0px 0px;
+}
+
+.block-mission-vision:nth-child(even) .block-mission-vision__info::before {
+    left: 100%;
+}
+
+.block-mission-vision__title {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+/* mission-vision adaptive */
+@media screen and (max-width:768px) {
+
+    .block-mission-vision:nth-child(even),
+    .block-mission-vision {
+        flex-direction: column;
+    }
+
+    .block-mission-vision__photo {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .block-mission-vision:nth-child(even) .block-mission-vision__info,
+    .block-mission-vision__info {
+        text-align: center;
+        padding: 3.3% 0px 0px 0px;
+    }
+
+    .block-mission-vision:nth-child(even) .block-mission-vision__info::before,
+    .block-mission-vision__info::before {
+        left: 0;
+        width: 100%;
+        min-height: 1px;
+    }
+}
+
+/* press-releases */
+.press-releases {
+    padding-bottom: 150px;
+}
+
+.press-releases__title:not(:last-child) {
+    margin-bottom: 14px;
+}
+
+.press-releases__paragraph:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.press-releases__list-release {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px 0px;
+}
+
+/* release-press-releases */
+.release-press-releases {
+    width: 49%;
+    padding: 1.96%;
+    border-radius: 40px 40px 16px 16px;
+    border: 1px solid #262626;
+    background-color: #1C1C1C;
+}
+
+.release-press-releases__photo {
+    width: 0;
+    height: 0;
+    padding-left: 100%;
+    padding-top: 42%;
+    position: relative;
+}
+
+.release-press-releases__photo:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.release-press-releases__photo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px 30px 12px 12px;
+}
+
+.release-press-releases__title {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.release-press-releases__tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.release-press-releases__tag {
+    border-radius: 68px;
+    padding: 8px 16px;
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+}
+
+/* press-releases adaptive */
+@media screen and (max-width: 992px) {
+    .release-press-releases {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .release-press-releases__photo {
+        padding-top: 65%;
+    }
+}
